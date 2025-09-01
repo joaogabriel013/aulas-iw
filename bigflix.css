@@ -1,0 +1,131 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0c0c0c;
+
+}
+.logo {
+  height: 100px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.BTN{
+  background-color: #e50914;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0c0c0c;
+  font-size: 0.9rem;
+  top: 100%;
+}
+.planolight{
+ width: 400px;       /* largura */
+  height: 500px;      /* altura */
+  padding: 20px;      /* espaçamento interno */
+  margin: 15px;       /* espaçamento externo */
+  text-align: center; /* alinhamento do texto */
+  background-image: linear-gradient( to top left, rgb(94, 9, 110), rgb(100, 20, 130), rgb(255, 0, 242), rgb(255, 0, 242) );
+  border-radius: 30px;
+}
+.planoplus{
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient( to top left, rgb(94, 9, 110), rgb(100, 20, 130), rgb(255, 0, 242), rgb(255, 0, 242) );
+  border-radius: 30px;
+}
+.planoblack{
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 140%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient( to top left, rgb(94, 9, 110), rgb(100, 20, 130), rgb(255, 0, 242), rgb(255, 0, 242) );
+  border-radius: 30px;
+}
+.light{
+  background-color: #e50914;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.plus{
+  background-color: #e50914;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.black{
+  background-color: #e50914;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.idioma{
+  background-color: #e50914;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
